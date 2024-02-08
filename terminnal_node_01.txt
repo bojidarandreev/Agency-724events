@@ -1,0 +1,65 @@
+PS D:\work\openclassroom\project 10> npm install
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+npm WARN cleanup Failed to remove some directories [
+npm WARN cleanup   [
+npm WARN cleanup     'D:\\work\\openclassroom\\project 10\\node_modules',
+npm WARN cleanup     [Error: EPERM: operation not permitted, rmdir 'D:\work\openclassroom\project 10\node_modules\ajv-formats\node_modules\ajv'] {
+npm WARN cleanup       errno: -4048,
+npm WARN cleanup       code: 'EPERM',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'D:\\work\\openclassroom\\project 10\\node_modules\\ajv-formats\\node_modules\\ajv'
+npm WARN cleanup     }
+npm WARN cleanup   ]
+npm WARN cleanup ]
+npm ERR! code EEXIST
+npm ERR! syscall rename
+npm ERR! path C:\Users\masterbojo\AppData\Local\npm-cache\_cacache\tmp\8bd1ec2f
+npm ERR! dest C:\Users\masterbojo\AppData\Local\npm-cache\_cacache\content-v2\sha512\de\13\7b35ab2462f3032d0639e609d6dcd43e99eb0401ea53aa583e5446e3ef3cea10c055361cdc19861e
+a85a3f4e5633e9e42215ca751dcb0264efa71a04bcce
+npm ERR! errno -4082
+npm ERR! EBUSY: resource busy or locked, rename 'C:\Users\masterbojo\AppData\Local\npm-cache\_cacache\tmp\8bd1ec2f' -> 'C:\Users\masterbojo\AppData\Local\npm-cache\_cacach
+e\content-v2\sha512\de\13\7b35ab2462f3032d0639e609d6dcd43e99eb0401ea53aa583e5446e3ef3cea10c055361cdc19861ea85a3f4e5633e9e42215ca751dcb0264efa71a04bcce'
+npm ERR! File exists: C:\Users\masterbojo\AppData\Local\npm-cache\_cacache\content-v2\sha512\de\13\7b35ab2462f3032d0639e609d6dcd43e99eb0401ea53aa583e5446e3ef3cea10c055361c
+dc19861ea85a3f4e5633e9e42215ca751dcb0264efa71a04bcce
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in: C:\Users\masterbojo\AppData\Local\npm-cache\_logs\2024-02-02T13_36_13_934Z-debug-0.log
+PS D:\work\openclassroom\project 10> 
+ *  History restored 
+
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+
+added 1423 packages, and audited 1424 packages in 13s
+
+176 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (7 moderate, 11 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS D:\work\openclassroom\project 10> 
+ *  History restored 
+
+
+> 724-events@0.1.0 start
+Compiled successfully!
+
+You can now view 724-events in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.137.1:3000
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+webpack compiled successfully
+
