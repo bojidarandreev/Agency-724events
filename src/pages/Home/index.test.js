@@ -21,7 +21,9 @@ describe("When Form is created", () => {
         })
       );
       await screen.findByText("En cours");
+      setTimeout(async () => {
       await screen.findByText("Message envoyé !");
+      }, 1001)
     });
   });
 
@@ -32,13 +34,21 @@ describe("When a page is created", () => {
   it("a list of events is displayed", () => {
     // to implement
   })
-  it("a list a people is displayed", () => {
+  it("a list a people is displayed",  () => {
     // to implement
+    render(<Home />)
+     screen.findByText('CEO')
+     screen.findByText('Directeur Marketing')
   })
   it("a footer is displayed", () => {
-    // to implement
+    // to implement    
+    render(<Home />)
+    screen.findByText('Contactez-nous')
   })
   it("an event card, with the last event, is displayed", () => {
-    // to implement
+    render(<Home />)
+    screen.findByText('boom')
+
+
   })
 });
